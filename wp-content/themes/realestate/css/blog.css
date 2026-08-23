@@ -1,0 +1,42 @@
+    #main_area {
+      min-height: 484.3px;
+      background: #fff;
+      position: relative;
+      z-index: 2;
+      padding: 50px 10px 0;
+    }
+
+  .wrapper {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+    .wrapper p {
+      color: #141414;
+    }
+
+  main {
+    float: left;
+    width: 1250px;
+    line-height: 28px;
+    max-width: 100%;
+    text-align: left;
+    position: relative;
+  }
+
+  #main_area a {
+font-weight: 700;
+  color: #6f3bf6;
+  text-decoration: none;
+  }
+
+      /* Breadcrumb Styling */
+.breadcrumbs {border-bottom: 1px dotted gray; padding-bottom: 10px; overflow: hidden;text-overflow: ellipsis;color: #191919;}
+.breadcrumbs span{vertical-align: bottom;display: inline-block;}
+.breadcrumbs span[property='name'] {display: inline-block;padding: 0;margin-top: -3px;vertical-align: middle;max-width: 270px;white-space: nowrap;}
+.breadcrumbs span[property='name']:hover{text-decoration: underline;}
+.breadcrumbs .post {border-radius: 0;padding: 0;margin: 0;border: none;word-wrap: normal;}
+.breadcrumbs span[class='post post-page current-item'] {display: inline-block;padding: 0;max-width: 250px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+/* End Breadcrumb Styling */

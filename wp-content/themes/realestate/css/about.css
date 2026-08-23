@@ -1,0 +1,1104 @@
+    /* Hero section */
+    .hero-section {
+      margin-top: 50px;
+      padding: 0 16px;
+    }
+    
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    
+    .hero-left {
+      width: 100%;
+    }
+    
+    .decorative-dots {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+    
+    .dot-large {
+      width: 30px;
+      height: 30px;
+    }
+    
+    .dot-medium {
+      width: 18px;
+      height: 18px;
+    }
+    
+    .dot-small {
+      width: 8px;
+      height: 8px;
+    }
+    
+    .hero-text-content {
+      padding-left: 20px;
+    }
+    
+    .hero-title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    
+    .hero-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #999999;
+      margin-bottom: 40px;
+    }
+    
+    .stats-container {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    
+    .stat-card {
+      background-color: #191919;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 22px 24px;
+    }
+    
+    .stat-number {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    
+    .stat-label {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #999999;
+    }
+    
+    .hero-image-container {
+      width: 100%;
+      background-color: #141414;
+      background-image: url('../images/img_abstract_design_gray_800.webp');
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    
+    .hero-image {
+        width: 100%;
+        border-radius: 12px;
+        margin-bottom: -20px;
+        margin-left: 20px;
+        object-fit: cover;
+        height: -webkit-fill-available;
+    }
+    
+    /* Values section */
+    .values-section {
+      margin-top: 80px;
+      padding: 0 16px;
+    }
+    
+    .values-content {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    
+    .values-left {
+      width: 100%;
+    }
+    
+    .section-title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-bottom: 16px;
+      padding-left: 20px;
+    }
+    
+    .section-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #999999;
+      padding-left: 20px;
+    }
+    
+    .values-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      background-color: #141414;
+      border: 10px solid #262626;
+      border-radius: 12px;
+      padding: 40px 30px;
+      box-shadow: 0px 0px 1px #191919;
+    }
+    
+    .value-card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .value-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    
+    .value-icon-container {
+      background-color: #141414;
+      border: 1px solid #6f3bf6;
+      border-radius: 36px;
+      padding: 20px;
+      flex-shrink: 0;
+    }
+    
+    .value-icon {
+      width: 34px;
+      height: 34px;
+    }
+    
+    .value-title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+    
+    .value-text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #999999;
+    }
+    
+    .value-divider {
+      width: 100%;
+      height: 1px;
+      background-color: #262626;
+      margin: 15px 0;
+    }
+    
+    /* Achievements section */
+    .achievements-section {
+      margin-top: 80px;
+      padding: 0 16px;
+    }
+    
+    .achievements-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+      padding-left: 20px;
+      margin-top: 60px;
+    }
+    
+    .achievement-card {
+      background-color: #141414;
+      border: 10px solid #262626;
+      border-radius: 12px;
+      padding: 40px 30px;
+      box-shadow: 0px 0px 1px #191919;
+    }
+    
+    .achievement-title {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    
+    .achievement-text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #999999;
+    }
+    
+    /* Experience section */
+    .experience-section {
+      margin-top: 80px;
+      padding: 0 16px;
+    }
+    
+    .experience-header {
+      margin-bottom: 40px;
+    }
+    
+    .experience-subtitle {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #999999;
+      padding-left: 20px;
+    }
+    
+    .steps-container {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding-left: 20px;
+    }
+    
+    .steps-row {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .step-card {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .step-label {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #ffffff;
+      border-left: 1px solid #6f3bf6;
+      padding: 18px 20px 14px 20px;
+      background: transparent;
+      width: 100%;
+      text-align: left;
+    }
+    
+    .step-content {
+      background: linear-gradient(144deg, #6f3bf6 0, #6f3bf600 12%);
+      border: 1px solid #262626;
+      border-radius: 0px 12px 12px 12px;
+      padding: 40px 30px;
+    }
+    
+    .step-title {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-bottom: 16px;
+    }
+    
+    .step-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #999999;
+    }
+    
+    /* Team section */
+    .team-section {
+      margin-top: 80px;
+      padding: 0 16px;
+    }
+    
+    .team-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding-left: 20px;
+    }
+    
+    .team-card {
+      background-color: transparent;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 30px;
+    }
+    
+    .team-card-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+    
+    .team-image-container {
+      position: relative;
+    }
+    
+    .team-image {
+      width: 100%;
+      border-radius: 12px;
+    }
+    
+    .team-social-icon {
+      position: absolute;
+      bottom: -26px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #6f3bf6;
+      border-radius: 26px;
+      padding: 14px;
+      width: 52px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .team-social-icon img {
+      width: 24px;
+      height: 24px;
+    }
+    
+    .team-info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .team-name {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+    
+    .team-role {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #999999;
+    }
+    
+    .team-contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #191919;
+      border: 1px solid #262626;
+      border-radius: 36px;
+      padding: 14px;
+    }
+    
+    .team-contact-text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-left: 10px;
+    }
+    
+    .team-contact-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 22px;
+    }
+    
+    /* Clients section */
+    .clients-section {
+      margin-top: 80px;
+      padding: 0 16px;
+    }
+    
+    .clients-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding-left: 20px;
+    }
+    
+    .clients-row {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      margin-top: 60px;
+    }
+    
+    .client-card {
+      background-color: #141414;
+      border: 10px solid #262626;
+      border-radius: 12px;
+      padding: 40px 30px;
+      box-shadow: 0px 0px 1px #191919;
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+    }
+    
+    .client-header {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .client-header-top {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .client-since {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #999999;
+    }
+    
+    .client-name {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+    
+    .client-website-btn {
+      background-color: #191919;
+      border: 1px solid #262626;
+      border-radius: 10px;
+      padding: 18px 24px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #ffffff;
+      align-self: flex-start;
+    }
+    
+    .client-details {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .client-detail-item {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .client-detail-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .client-detail-icon {
+      width: 24px;
+      height: 24px;
+    }
+    
+    .client-detail-label {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #999999;
+    }
+    
+    .client-detail-value {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+    
+    .client-divider {
+      width: 1px;
+      height: 64px;
+      background-color: #262626;
+      display: none;
+    }
+    
+    .client-testimonial {
+      background-color: transparent;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 30px;
+    }
+    
+    .client-testimonial-title {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #999999;
+      margin-bottom: 14px;
+    }
+    
+    .client-testimonial-text {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #ffffff;
+    }
+    
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #262626;
+      padding: 24px 12px 24px 12px;
+      gap: 16px;
+    }
+    
+    .pagination-text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #999999;
+    }
+    
+    .pagination-icon {
+      width: 30px;
+      height: 30px;
+    }
+    
+    /* CTA section */
+    .cta-section {
+      margin-top: 80px;
+      border-top: 1px solid #262626;
+      border-bottom: 1px solid #262626;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .cta-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .cta-text-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .cta-title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+    
+    .cta-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #999999;
+    }
+    
+    .cta-button {
+      background-color: #6f3bf6;
+      border-radius: 10px;
+      padding: 18px 24px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #ffffff;
+      align-self: flex-end;
+      position: unset;
+    }
+    
+    /* Responsive media queries */
+    @media (min-width: 640px) {
+      .container {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      
+      .header-top {
+        padding: 14px 24px;
+      }
+      
+      .header-announcement {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 62%;
+      }
+      
+      .announcement-text-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      
+      .announcement-text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #ffffff;
+      }
+      
+      .announcement-link {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #ffffff;
+        text-decoration: underline;
+      }
+      
+      .announcement-close {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .announcement-close img {
+        width: 12px;
+        height: 12px;
+      }
+      
+      .header-main {
+        padding: 20px 24px;
+      }
+      
+      .hero-section {
+        margin-top: 60px;
+        padding: 0 24px;
+      }
+      
+      .hero-title {
+        font-size: 40px;
+      }
+      
+      .stats-container {
+        flex-direction: row;
+        gap: 18px;
+      }
+      
+      .stat-card {
+        flex: 1;
+      }
+      
+      .stat-number {
+        font-size: 32px;
+      }
+      
+      .section-title {
+        font-size: 40px;
+      }
+      
+      .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 40px;
+      }
+      
+      .value-title {
+        font-size: 22px;
+      }
+      
+      .achievement-title {
+        font-size: 26px;
+      }
+      
+      .steps-row {
+        flex-direction: row;
+        gap: 30px;
+      }
+      
+      .step-card {
+        flex: 1;
+      }
+      
+      .step-title {
+        font-size: 24px;
+      }
+      
+      .team-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+      
+      .team-card {
+        width: calc(50% - 15px);
+      }
+      
+      .team-name {
+        font-size: 22px;
+      }
+      
+      .clients-row {
+        flex-direction: row;
+        gap: 50px;
+      }
+      
+      .client-card {
+        flex: 1;
+      }
+      
+      .client-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      
+      .client-website-btn {
+        align-self: auto;
+      }
+      
+      .client-details {
+        flex-direction: row;
+        gap: 30px;
+      }
+      
+      .client-divider {
+        display: block;
+      }
+      
+      .client-name {
+        font-size: 26px;
+      }
+      
+      .cta-content {
+        padding: 80px 24px;
+      }
+      
+      .cta-title {
+        font-size: 40px;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .container {
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      
+      .header-top {
+        padding: 14px 32px;
+      }
+      
+      .header-main {
+        padding: 20px 32px;
+      }
+      
+      .hamburger {
+        display: none;
+      }
+      
+      .nav-menu {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      
+      .nav-item {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 14px 24px;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .nav-item.active {
+        background-color: #141414;
+        border: 1px solid #262626;
+      }
+      
+      .nav-item:hover {
+        background-color: #141414;
+        border: 1px solid #262626;
+      }
+      
+      .contact-btn {
+        display: block;
+        background-color: #141414;
+        border: 1px solid #262626;
+        border-radius: 10px;
+        padding: 16px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #ffffff;
+      }
+      
+      .hero-section {
+        margin-top: 80px;
+        padding: 0 32px;
+      }
+      
+      .hero-content {
+        flex-direction: row;
+        gap: 60px;
+      }
+      
+      .hero-left {
+        width: 48%;
+      }
+      
+      .hero-image-container {
+        width: 48%;
+      }
+      
+      .hero-title {
+        font-size: 48px;
+      }
+      
+      .hero-description {
+        font-size: 18px;
+      }
+      
+      .stat-number {
+        font-size: 40px;
+      }
+      
+      .stat-label {
+        font-size: 18px;
+      }
+      
+      .values-section {
+        margin-top: 100px;
+        padding: 0 32px;
+      }
+      
+      .values-content {
+        flex-direction: row;
+        gap: 60px;
+      }
+      
+      .values-left {
+        width: 38%;
+      }
+      
+      .values-grid {
+        width: 60%;
+        padding: 60px 60px;
+      }
+      
+      .section-title {
+        font-size: 48px;
+      }
+      
+      .section-description {
+        font-size: 18px;
+      }
+      
+      .value-text {
+        font-size: 18px;
+      }
+      
+      .achievements-section {
+        margin-top: 100px;
+        padding: 0 32px;
+      }
+      
+      .achievements-cards {
+        flex-direction: row;
+        gap: 38px;
+      }
+      
+      .achievement-card {
+        flex: 1;
+        padding: 50px;
+      }
+      
+      .achievement-title {
+        font-size: 30px;
+      }
+      
+      .achievement-text {
+        font-size: 18px;
+      }
+      
+      .experience-section {
+        margin-top: 100px;
+        padding: 0 32px;
+      }
+      
+      .experience-subtitle {
+        font-size: 18px;
+      }
+      
+      .step-label {
+        font-size: 20px;
+      }
+      
+      .step-content {
+        padding: 50px;
+      }
+      
+      .step-title {
+        font-size: 26px;
+      }
+      
+      .step-description {
+        font-size: 18px;
+      }
+      
+      .team-section {
+        margin-top: 100px;
+        padding: 0 32px;
+      }
+      
+      .team-card {
+        width: calc(33.333% - 20px);
+      }
+      
+      .team-name {
+        font-size: 24px;
+      }
+      
+      .team-role {
+        font-size: 18px;
+      }
+      
+      .team-contact-text {
+        font-size: 18px;
+      }
+      
+      .clients-section {
+        margin-top: 100px;
+        padding: 0 32px;
+      }
+      
+      /* .client-card {
+        padding: 50px;
+      } */
+      
+      .client-since {
+        font-size: 18px;
+      }
+      
+      .client-name {
+        font-size: 30px;
+      }
+      
+      .client-website-btn {
+        font-size: 18px;
+      }
+      
+      .client-detail-label {
+        font-size: 18px;
+      }
+      
+      .client-detail-value {
+        font-size: 20px;
+      }
+      
+      .client-testimonial-title {
+        font-size: 18px;
+      }
+      
+      .client-testimonial-text {
+        font-size: 18px;
+      }
+      
+      .pagination-text {
+        font-size: 20px;
+      }
+      
+      .cta-section {
+        margin-top: 100px;
+      }
+      
+      .cta-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 32px;
+      }
+      
+      .cta-text-container {
+        width: 60%;
+      }
+      
+      .cta-title {
+        font-size: 48px;
+      }
+      
+      .cta-description {
+        font-size: 18px;
+      }
+      
+      .cta-button {
+        font-size: 18px;
+      }
+    }
+    
+    @media (min-width: 1024px) {
+        .header-main {
+            padding: 20px 162px;
+        }
+
+      .hero-section {
+        margin-top: 100px;
+        padding: 0 142px 0 142px;
+      }
+      
+      .values-section {
+        margin-top: 150px;
+        padding: 0 142px 0 142px;
+      }
+      
+      .achievements-section {
+        margin-top: 110px;
+        padding: 0 142px 0 142px;
+      }
+      
+      .experience-section {
+        margin-top: 110px;
+        padding: 0 142px 0 142px;
+      }
+      
+      .team-section {
+        margin-top: 110px;
+        padding: 0 142px 0 142px;
+      }
+      
+      .team-card {
+        width: calc(25% - 22.5px);
+      }
+      
+      .clients-section {
+        margin-top: 110px;
+        padding: 0 142px 0 142px;
+      }
+      
+      .cta-section {
+        margin-top: 150px;
+      }
+      
+      .cta-content {
+        padding: 100px 162px;
+      }
+    }
+    
+    @media (min-width: 1280px) {
+      .hero-title {
+        font-size: 48px;
+      }
+      
+      .section-title {
+        font-size: 48px;
+      }
+      
+      .cta-title {
+        font-size: 48px;
+      }
+    }
+
+    @media (max-width: 1280px) {
+        .clients-row {
+        flex-direction: column;
+        }
+    }
+
+    @media (max-width: 768px) {
+  .cta-button {
+    align-self: stretch;
+  }
+}

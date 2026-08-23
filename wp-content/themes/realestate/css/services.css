@@ -1,0 +1,763 @@
+/* Hero Section */
+    .hero-section {
+      background: linear-gradient(154deg, #262626 0%, rgba(38, 38, 38, 0) 100%);
+      border-bottom: 1px solid #262626;
+      padding: 50px 16px;
+    }
+    
+    .hero-content {
+      margin-top: 58px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .hero-title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      color: #ffffff;
+    }
+    
+    .hero-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #999999;
+    }
+    
+    /* Service Cards Grid */
+    .services-grid {
+      background-color: #141414;
+      border: 1px solid #262626;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    
+    .service-card {
+      background-color: #191919;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0px 8px 24px rgba(111, 59, 246, 0.2);
+    }
+    
+    .service-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    .icon-wrapper-outer.unlock {
+      margin: 0;
+    }
+    
+    .icon-wrapper-outer {
+        border: 1px solid transparent; 
+        background: 
+            linear-gradient(#222, #222) padding-box,
+            linear-gradient(219deg, #a584f9 0%, rgba(165, 132, 249, 0) 100%);
+        border-image-slice: 1;
+        border-radius: 50%; 
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .icon-wrapper-inner.inv img {
+      max-width: none;
+    }
+    
+    .icon-wrapper-inner {
+        border: 1px solid transparent; 
+        background: 
+            linear-gradient(#222, #222) padding-box,
+            linear-gradient(305deg, #a584f9 0%, rgba(165, 132, 249, 0) 100%);
+        border-image-slice: 1;
+        border-radius: 50%; 
+        padding: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icon-wrapper-inner img {
+      width: 62px;
+      height: 62px;
+    }
+    
+    .arrow-icon {
+      width: 34px;
+      height: 34px;
+    }
+    
+    .service-title {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 25px;
+      color: #ffffff;
+      text-align: center;
+    }
+    
+    /* Section Headers */
+    .section-header {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin: 60px 16px;
+    }
+    
+    .decorative-icons {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .decorative-icons img:nth-child(1) {
+      width: 30px;
+      height: 30px;
+    }
+    
+    .decorative-icons img:nth-child(2) {
+      width: 18px;
+      height: 18px;
+    }
+    
+    .decorative-icons img:nth-child(3) {
+      width: 8px;
+      height: 8px;
+    }
+    
+    .section-title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      color: #ffffff;
+    }
+    
+    .section-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #999999;
+    }
+    
+    /* Service Detail Cards */
+    .service-details-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      margin: 0 16px;
+    }
+
+    .service-details-grid img {
+      max-width: none;
+    }
+    
+    .detail-card {
+      background-color: #141414;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .detail-card-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .detail-title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 29px;
+      color: #ffffff;
+    }
+    
+    .detail-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #999999;
+    }
+    
+    /* CTA Card */
+    .cta-card {
+      background-color: #191919;
+      background-image: url('../images/services/img_abstract_design_266x1052.png');
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 40px 30px;
+      width: 205%;
+    }
+    
+    .cta-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .cta-header {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .cta-title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      color: #ffffff;
+    }
+    
+    .cta-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #999999;
+      margin-top: 40px;
+    }
+    
+    .learn-more-btn {
+      background-color: #141414;
+      border: 1px solid #262626;
+      border-radius: 10px;
+      padding: 18px 24px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      color: #ffffff;
+      transition: all 0.3s ease;
+      align-self: flex-end;
+      position: absolute;
+    }
+    
+    .learn-more-btn:hover {
+      background-color: #6f3bf6;
+      transform: scale(1.05);
+    }
+    
+    /* Investment Section */
+    .investment-section {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      margin: 0 auto;
+      max-width: 1800px;
+      padding: 40px;
+    }
+    
+    .investment-left {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    
+    .investment-header {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .investment-title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 48px;
+      color: #ffffff;
+    }
+    
+    .investment-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #999999;
+    }
+    
+    .investment-cta-card {
+      background-color: #191919;
+      background-image: url('../images/img_abstract_design_340x519.png');
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 40px 30px;
+    }
+    
+    .investment-cta-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .investment-cta-title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 29px;
+      color: #ffffff;
+    }
+    
+    .investment-cta-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #e3e3e7;
+    }
+    
+    .investment-cta-btn {
+      background-color: #141414;
+      border: 1px solid #262626;
+      border-radius: 10px;
+      padding: 18px 34px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      color: #ffffff;
+      width: 100%;
+      transition: all 0.3s ease;
+    }
+    
+    .investment-cta-btn:hover {
+      background-color: #6f3bf6;
+      transform: scale(1.02);
+    }
+    
+    .investment-grid {
+      background-color: #191919;
+      border-radius: 12px;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    
+    /* Footer CTA */
+    .footer-cta {
+      border-top: 1px solid #262626;
+      border-bottom: 1px solid #262626;
+      position: relative;
+      padding: 40px 16px;
+    }
+    
+    .footer-cta-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .footer-cta-text-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .footer-cta-title {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      color: #ffffff;
+    }
+    
+    .footer-cta-description {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #999999;
+    }
+    
+    .explore-btn {
+      background-color: #6f3bf6;
+      border-radius: 10px;
+      padding: 18px 24px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      color: #ffffff;
+      transition: all 0.3s ease;
+      align-self: flex-start;
+    }
+    
+    .explore-btn:hover {
+      background-color: #5a2fd4;
+      transform: scale(1.05);
+      box-shadow: 0px 8px 24px rgba(111, 59, 246, 0.4);
+    }
+    
+    /* Responsive media queries */
+    @media (min-width: 640px) {
+      .top-banner {
+        padding: 14px 24px;
+      }
+      
+      .banner-text {
+        font-size: 16px;
+      }
+      
+      .banner-link {
+        font-size: 16px;
+      }
+      
+      .logo-icon {
+        width: 48px;
+        height: 48px;
+      }
+      
+      .logo-text {
+        width: 100px;
+      }
+      
+      .nav-item {
+        font-size: 18px;
+      }
+      
+      .contact-btn {
+        font-size: 18px;
+      }
+      
+      .hero-section {
+        padding: 60px 24px;
+      }
+      
+      .hero-title {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      
+      .hero-description {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      
+      .service-title {
+        font-size: 20px;
+      }
+      
+      .section-header {
+        margin: 80px 24px;
+      }
+      
+      .section-title {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      
+      .section-description {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      
+      .service-details-grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 24px;
+      }
+      
+      .detail-card {
+        padding: 50px 40px;
+      }
+      
+      .detail-title {
+        font-size: 22px;
+      }
+      
+      .detail-description {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      
+      .cta-card {
+        padding: 50px 40px;
+      }
+      
+      .cta-title {
+        font-size: 28px;
+        line-height: 36px;
+      }
+      
+      .cta-description {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      
+      .investment-section {
+        margin: 0 auto;
+      }
+      
+      .investment-title {
+        font-size: 40px;
+        line-height: 56px;
+      }
+      
+      .investment-description {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      
+      .investment-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .footer-cta {
+        padding: 60px 24px;
+      }
+      
+      .footer-cta-title {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      
+      .footer-cta-description {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      
+    }
+    
+    @media (min-width: 768px) {
+      .top-banner {
+        padding: 14px 32px;
+      }
+      
+      .banner-text {
+        font-size: 18px;
+      }
+      
+      .banner-link {
+        font-size: 18px;
+      }
+      
+      .hero-section {
+        padding: 80px 32px;
+      }
+      
+      .hero-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+      
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .section-header {
+        margin: 100px 32px;
+      }
+      
+      .section-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+      
+      .service-details-grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 32px;
+      }
+      
+      .investment-section {
+        margin: 0 auto;
+      }
+      
+      .investment-title {
+        font-size: 48px;
+        line-height: 72px;
+      }
+      
+      .footer-cta {
+        padding: 80px 32px;
+      }
+      
+      .footer-cta-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+
+    }
+    
+    @media (min-width: 1024px) {
+        .header-main {
+          padding: 20px 162px;
+        }
+
+      .hamburger {
+        display: none;
+      }
+      
+      .nav-menu {
+        display: flex;
+      }
+      
+      .top-banner {
+        padding: 14px 162px;
+      }
+      
+      .hero-section {
+        padding: 100px 56px;
+      }
+      
+      .services-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      
+      .section-header {
+        margin: 110px 142px;
+      }
+
+      .service-details-grid {
+        max-width: 1723px;
+      }
+      
+      .service-details-grid {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        padding: 32px;
+      }
+      
+      .investment-section {
+        flex-direction: row;
+        gap: 60px;
+        margin: 0 auto;
+      }
+      
+      .investment-left {
+        width: 32%;
+      }
+      
+      .investment-grid {
+        width: 62%;
+      }
+      
+      .footer-cta {
+        padding: 100px 162px;
+      }
+      
+      .footer-cta-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .footer-cta-text-wrapper {
+        max-width: 60%;
+      }
+    }
+    
+    @media (min-width: 1280px) {
+      .hero-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+      
+      .section-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+      
+      .detail-title {
+        font-size: 24px;
+        line-height: 29px;
+      }
+      
+      .cta-title {
+        font-size: 30px;
+        line-height: 37px;
+      }
+      
+      .investment-title {
+        font-size: 48px;
+        line-height: 72px;
+      }
+      
+      .footer-cta-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+    }
+    
+    @media (min-width: 1536px) {
+      .hero-title {
+        font-size: 48px;
+        line-height: 58px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .cta-card {
+        width: 100%
+      }
+    }
+
+    @media (max-width: 768px) {
+      .cta-button {
+        align-self: stretch;
+      }
+      .service-title {
+        font-size: 14px;
+      }
+
+      .icon-wrapper-inner img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .arrow-icon {
+        width: 20px;
+        height: 20px;
+      }
+
+          /* Service Cards Grid */
+    .services-grid {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+    }
+    
+    
+    .service-card {
+      width: calc(50% - 10px);
+      box-sizing: border-box;
+      background-color: #191919;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    }
+    @media (max-width: 1340px) {
+      .cta-description {
+        margin-top: 20px;
+      }
+      .learn-more-btn {
+        align-self: stretch;
+        position: unset;
+      }
+    }
+
+    @media (max-width: 1700px) {
+    .service-details-grid {
+      margin: revert-rule;
+    }
+    }
+  
