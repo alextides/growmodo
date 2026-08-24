@@ -1,6 +1,7 @@
 <?php @session_start();
 get_includes('head');
 get_includes('header');
+get_includes('nav');
 
 if(is_page('about-us')){
 	get_includes('about-us');

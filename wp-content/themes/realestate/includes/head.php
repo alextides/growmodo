@@ -12,6 +12,7 @@
 		<title><?php echo get_bloginfo('name');?></title>
 
 		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/gm-style.min.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/media.min.css">
 
 		<!-- Blog Activation -->
 		<?php if(!is_home()){ ?>

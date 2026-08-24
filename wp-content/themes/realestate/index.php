@@ -1,6 +1,7 @@
 <?php @session_start();
 	get_includes('head');
 	get_includes('header');
+	get_includes('nav');
 	get_includes('hero');
 ?>
 <?php if ( is_front_page() ) {

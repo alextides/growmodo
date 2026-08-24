@@ -123,3 +123,6 @@ if ( isset( $_POST['cf_submitted_letter'] ) ) {
       </div>
     </div>
   </footer>
+
+<script src="<?php bloginfo('template_url');?>/js/jquery-2.1.1.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/plugins.min.js"></script>
