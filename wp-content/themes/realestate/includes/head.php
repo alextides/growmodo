@@ -11,23 +11,23 @@
 
 		<title><?php echo get_bloginfo('name');?></title>
 
-		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/gm-style.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/gm-style.min.css">
 
 		<!-- Blog Activation -->
 		<?php if(!is_home()){ ?>
-		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/blog.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/blog.min.css">
 		<?php }?>
 
 		<?php if(is_page('about-us')) { ?>
-				<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/about.css">
+				<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/about.min.css">
 		<?php } elseif(is_page('properties')){?>
-				<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/properties.css">
+				<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/properties.min.css">
 		<?php } elseif(is_page('services')){?>
-			<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/services.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/services.min.css">
 		<?php } elseif(is_page('contact')){?>
-			<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/contact.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/contact.min.css">
 		<?php } elseif(is_page('seaside-serenity-villa')){?>
-			<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/propdetail.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/propdetail.min.css">
 		<?php }?>
 
 		<!--Admin Responsive-->

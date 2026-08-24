@@ -332,14 +332,6 @@
       padding: 60px 16px;
     }
     
-    .form-container {
-      background-color: #141414;
-      border: 1px solid #262626;
-      border-radius: 12px;
-      padding: 60px 20px;
-      margin-top: 50px;
-    }
-    
     .form-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -397,6 +389,8 @@
       align-items: center;
       cursor: pointer;
       transition: all 0.3s ease;
+      color: gray;
+      font-size: 18px;
     }
     
     .form-select:hover {
@@ -779,19 +773,6 @@
         font-size: 24px;
       }
       
-      .view-details-btn {
-        /* font-size: 18px; */
-        /* padding: 18px 34px; */
-      }
-      
-      /* .contact-section {
-        padding: 80px 32px;
-      } */
-      
-      .form-container {
-        padding: 80px 40px;
-      }
-      
       .form-label {
         font-size: 20px;
       }
@@ -871,10 +852,6 @@
         padding: 20px 162px;
       }
       
-      .form-container {
-        padding: 100px 56px;
-      }
-      
     }
 
     @media (max-width: 1600px) {
@@ -901,3 +878,7 @@
         max-width: 100%;
       }
     }
+
+      .cta-button {
+        position: absolute;
+      }

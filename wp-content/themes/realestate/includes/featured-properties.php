@@ -32,7 +32,7 @@
                 <div class="price-label">Price</div>
                 <div class="price-value">$550,000</div>
                 </div>
-                <button class="view-details-btn">View Property Details</button>
+                <a href="properties/seaside-serenity-villa" class="view-details-btn">View Property Details</a>
             </div>
             </div>
         </article>
@@ -54,7 +54,7 @@
                 <div class="price-label">Price</div>
                 <div class="price-value">$550,000</div>
                 </div>
-                <button class="view-details-btn">View Property Details</button>
+                <a href="properties/seaside-serenity-villa" class="view-details-btn">View Property Details</a>
             </div>
             </div>
         </article>
@@ -76,7 +76,7 @@
                 <div class="price-label">Price</div>
                 <div class="price-value">$550,000</div>
                 </div>
-                <button class="view-details-btn">View Property Details</button>
+                <a href="properties/seaside-serenity-villa" class="view-details-btn">View Property Details</a>
             </div>
             </div>
         </article>

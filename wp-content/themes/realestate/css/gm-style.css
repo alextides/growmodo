@@ -4,26 +4,6 @@
       padding: 0;
       box-sizing: border-box;
     }
-/* Reset the clicked/focused menu link color to normal */
-.nav-item a:focus,
-.nav-item a:active {
-    color: #333333 !important; /* Forces default menu text color */
-    background-color: transparent !important; /* Forces transparent background */
-}
-
-/* Ensure the hover effect still works when re-hovered */
-.nav-item a:hover {
-    color: #FFBD59 !important; /* Forces menu hover color */
-}
-
-a.nav-link:focus, 
-a.nav-link:active {
-    color: #333333 !important;
-}
-a.nav-link:hover {
-    color: #FFBD59 !important;
-}
-
     
     body {
       font-family: 'Urbanist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -498,6 +478,8 @@ a.nav-link:hover {
       padding: 18px 34px;
       width: 100%;
       transition: all 0.3s ease;
+      text-decoration: none;
+      text-align: center;
     }
     
     .view-details-btn:hover {
@@ -2243,6 +2225,16 @@ margin: 0 auto;
   .cta-button {
     align-self: stretch;
     position: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-links {
+    display: grid;
+    /* Creates two equal-width columns side by side */
+    grid-template-columns: repeat(2, 1fr); 
+    /* Adds spacing between rows and columns (adjust as needed) */
+    gap: 24px; 
   }
 }
 

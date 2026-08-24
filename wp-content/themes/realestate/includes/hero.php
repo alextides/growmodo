@@ -73,7 +73,7 @@
             
             <div class="hero-buttons">
               <button class="btn-secondary">Learn More</button>
-              <button class="btn-primary">Browse Properties</button>
+              <a href="properties/seaside-serenity-villa" class="btn-primary" style="text-decoration: none;">View Property Details</a>
             </div>
             
             <div class="stats-row">

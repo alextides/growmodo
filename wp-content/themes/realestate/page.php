@@ -30,6 +30,7 @@ if(is_page('about-us')){
 	get_includes('inquiry-form');
 	get_includes('pricing');
 	get_includes('faq-propdetails');
+	get_includes('footer-cta');
 }
 
 ?>

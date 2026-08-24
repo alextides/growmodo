@@ -1,3 +1,32 @@
+ <?php
+if ( isset( $_POST['cf_submitted_letter'] ) ) {
+    $email        = sanitize_email( $_POST['cf_email'] ?? '' );
+
+    if ( empty( $email )) {
+        echo '<div class="err-mssg">Please fill in all required fields.</div>';
+    } elseif ( ! is_email( $email ) ) {
+        echo '<div class="err-mssg">Invalid email address.</div>';
+    } else {
+        $to = get_option( 'admin_email' );
+        $subject = "Newsletter";
+        
+        $headers = array(
+            'Content-Type: text/html; charset=UTF-8',
+            'Reply-To: "Newsletter" <' . $email . '>'
+        );
+
+        $body = "<h2>New Contact Form Submission</h2>";
+        $body .= "<p><strong>Email:</strong> $email</p>";
+        
+
+        if ( wp_mail( $to, $subject, $body, $headers ) ) {
+            echo '<div class="ty-mssg">Thank you! Your message has been sent.</div>';
+        } else {
+            echo '<div class="err-mssg">An error occurred. Please try again later.</div>';
+        }
+    }
+}
+?>
  <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
@@ -8,11 +37,13 @@
             <img src="<?php bloginfo('template_url');?>/images/img_text.svg" alt="Estatein" class="logo-text" width="100" height="20" loading="lazy">
           </div>
           
-          <div class="footer-newsletter">
-            <img src="<?php bloginfo('template_url');?>/images/img_icon_gray_500_26x24.svg" alt="Email" class="footer-newsletter-icon-left" width="24" height="26" loading="lazy">
-            <input type="email" placeholder="Enter Your Email" aria-label="Email address for newsletter">
-            <img src="<?php bloginfo('template_url');?>/images/img_icon_white_a700_26x30.svg" alt="Subscribe" class="footer-newsletter-icon-right" width="30" height="26" loading="lazy">
-          </div>
+          <form class="form-container" action="<?php echo esc_url( $_SERVER['REQUEST_URI'] ); ?>" method="POST">
+            <div class="footer-newsletter">
+              <img src="<?php bloginfo('template_url');?>/images/img_icon_gray_500_26x24.svg" alt="Email" class="footer-newsletter-icon-left" width="24" height="26" loading="lazy">
+              <input type="email" name="cf_email" value="<?php echo isset($_POST['cf_email']) ? esc_attr($_POST['cf_email']) : ''; ?>" placeholder="Enter Your Email" aria-label="Email address for newsletter">
+              <button type="submit" name="cf_submitted_letter" value="Send Newsletter" style="background: #141414;"><img src="<?php bloginfo('template_url');?>/images/img_icon_white_a700_26x30.svg" alt="Subscribe" class="footer-newsletter-icon-right" width="30" height="26" loading="lazy"></button>
+            </div>
+          </form>
         </div>
         
         <div class="footer-links">
